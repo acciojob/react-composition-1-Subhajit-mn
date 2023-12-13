@@ -1,6 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
+import Tabs from "./Tabs";
 
 const tabsData = [
   {titles: "Tab 1", contents: "This is the content for Tab 1."},
@@ -11,9 +12,7 @@ const tabsData = [
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
-        <Tabs tabs={tabs} />
-
+        <Tabs tabs={tabs}/>
     </div>
   )
 }
