@@ -12,7 +12,7 @@ const tabsData = [
 const App = () => {
   return (
     <div>
-        <Tabs tabs={tabs}/>
+        <Tabs tabs={tabsData}/>
     </div>
   )
 }
